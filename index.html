@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>netVital</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    </head>
+    <body>
+        <div class="begin">
+            <div class="welcome box" id="welcome">
+                <h2>netVital</h2>
+                <div id="buttonbox">
+                    <button id="start-button" class="n-button">Start</button>
+                    <button id="github" class="n-button">Github</button>
+                </div>
+            </div>
+            <div class="welcome box" id="menu">
+                <h2>netVital</h2>
+                <div id="holder">
+                    <p>Connection: <span id="connection">No Connection</span></p>
+                    <p>Hostname: <span id="hostname">No Hostname</span></p>
+                    <p>Public IPv4: <span id="ipv4here">No Public IPv4</span></p>
+                    <p>Public IPv6: <span id="ipv6here">No Public IPv6</span></p>
+                    <p>Local IPv4: <span id="ipv4local">No Local IPv4</span></p>
+                    <p>Local IPv6: <span id="ipv6local">No Local IPv6</span></p>
+                    <p>MAC Address: <span id="mac">No MAC Address</span></p>
+                </div>
+                <button id="home" class="n-button">Home</button>
+            </div>
+        </div>
+        <footer>
+            Refresh Vitals - F5<br>
+            Dev Tooling - CTRL/CMD + SHIFT + I
+        </footer>
+        <script src="function.js"></script>
+    </body>
+</html>
