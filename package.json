@@ -13,7 +13,7 @@
     "electron": "^2.0.9",
     "internal-ip": "^3.0.1",
     "ip": "^1.1.5",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "macaddress": "^0.2.9",
     "opn": "^5.3.0",
     "public-ip": "^2.4.0"
