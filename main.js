@@ -1,7 +1,7 @@
 const {app, BrowserWindow, globalShortcut} = require('electron');
 function createWindow () {
     win = new BrowserWindow({
-        icon: 'mjplogo(w).png',
+        icon: 'mjplogo.svg',
         width: 800,
         height: 500,
         center: true,
